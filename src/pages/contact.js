@@ -21,7 +21,7 @@ const Contact = () => (
        (I'm open to opensource volunteer project work, too), please do get in touch.</p>
 
     <p> 
-    <a href="mailto:willworthcoding@gmail.com">Send me an email</a> or find me on 
+    <a href="mailto:willworthdev@gmail.com">Send me an email</a> or find me on 
     <a href ="https://www.linkedin.com/in/willworth/"> LinkedIn</a> or 
     <a href ="https://www.github.com/willworth/"> Github</a>.</p> 
     

@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 
-
 const Header = ({ siteTitle }) => (
   <div 
     style={{
-      background: '#16262e',
+      background: '#008B8B',
       marginBottom: '1.45rem',
       minHeight: '10vh'
     }}
@@ -23,7 +22,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: '#da3e52',
+            color: 'black',
             fontFamily: "monospace", 
             textDecoration: "none",
             padding: "5px",

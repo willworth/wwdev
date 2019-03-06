@@ -1,76 +1,90 @@
 body {
-    background-color: #e6e8e6;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    color: #080708;
+  background-color: #e6e8e6;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: #080708;
 }
 
-/* a {
-    color: #f75c03;
-    text-decoration: none;
-    } */
 
 a {
-    color: #e5f77d;
-    text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-        }
-    
+  color: #e5f77d;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 
 main a {
-    background:
-        linear-gradient(
-            to bottom, #fdca40 0%,
-            #fdca40 100%
-        );
-        background-position: 0 100%;
-        background-repeat: repeat-x;
-        background-size: 4px 4px;
-    color: #000;
-    text-decoration: none;
-    transition: background-size .2s;
-    }
-    
-    a:hover {
-    background-size: 4px 50px;
-    }
+  background: linear-gradient(to bottom, #fdca40 0%, #fdca40 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
 
+a:hover {
+  background-size: 4px 50px;
+}
 
-.nav > Link {
-    color: red;
-    }
+.nav > link {
+  color: red;
+}
 /* nav > a {
     color: red;
     } */
 
-
-
-
-Link {
-    color: #e5f77d;
-    text-decoration: none;
-    }
-
+link {
+  color: #e5f77d;
+  text-decoration: none;
+}
 
 .willpic {
-    max-height : 430px;
-    max-width: 30vw;
-    float: right;
-    border-radius: 10px;
-    margin: 0px 0 0 0;
-    padding: 10px;
-    /* align-self: right; */
-    
-    }
+  max-height: 430px;
+  max-width: 30vw;
+  float: right;
+  border-radius: 10px;
+  margin: 0px 0 0 0;
+  padding: 10px;
+  /* align-self: right; */
+}
+.portfolioPic {
+  max-height: 430px;
+  max-width: 30vw;
+  float: right;
+  border-radius: 10px;
+  margin: 0px 0 0 0;
+  padding: 10px;
+}
+
+.portfolioSummary {
+  padding: 5px;
+  border-radius: 5px;
+  text-align: right;
+  font-family: monospace;
+  background-color: darkcyan;
+}
 
 .nav {
-    float: right;
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-family: 'Montserrat', sans-serif;
-    color: #df2935;
+  float: right;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: "Montserrat", sans-serif;
+  color: #df2935;
+  text-decoration: none;
+}
+
+/* Inset, by Dan Eden */
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  clear: both;
+}
+
+img {
     text-decoration: none;
 }

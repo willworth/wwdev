@@ -30,7 +30,7 @@ function Bio() {
             <p>
               Written by <strong>{author}</strong>, an English coder who lives
            and works in Alicante.{' '}Say 'Hi' (or 'Hola'){' '}
-          <a href="https://twitter.com/worthcoding">
+          <a href="https://twitter.com/willworthdev">
             on twitter
           </a>.
             </p>
