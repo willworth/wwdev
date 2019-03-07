@@ -11,23 +11,11 @@ const Portfolio = () => (
     <p>
       A portfolio is an opportunity not just to show ability, but also
       demonstrate priorities. <br />
-      What do I think are the key skills I need, and how can I show them?
-      Naturally, I would love to show incredible skill as a full stack
-      javascript developer, but - as is clear from the look of this site- visual
-      design is not my priority.{" "}
+      Trying to provide examples of the skils I think I need, below are examples 
+of a CRUD app, an API calling app, some simple DOM manipulation, modern CSS, and some React 
+(of which, more soon.){" "}
     </p>
-    <p>
-      {" "}
-      <em> I love the logic and design of systems</em>, and derive much more
-      pleasure from working with them than I do from some gradient effect or
-      whatever. User experience is, of course, very important, but I would
-      always choose a quick site that's got clear navigation over something more
-      asthetically appealling that makes me work to use it.
-      <a href="https://en.wikipedia.org/wiki/Don't_Make_Me_Think">
-        Don''t make me think
-      </a>
-      !
-    </p>
+    
     <p>
       <em>
         Please note: The Node examples are running on heroku's free tier, and

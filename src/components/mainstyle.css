@@ -26,16 +26,22 @@ main a {
   transition: background-size 0.2s;
 }
 
+
 a:hover {
   background-size: 4px 50px;
 }
 
-.nav > link {
-  color: red;
+img:hover {
+  text-decoration: none;
 }
-/* nav > a {
-    color: red;
-    } */
+
+
+
+a .gatsby-resp-image-link {
+  text-decoration: none;
+  background: none;
+  
+}
 
 link {
   color: #e5f77d;
