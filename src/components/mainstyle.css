@@ -147,12 +147,14 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   padding: 2px;
 } */
-
+a.gatsby-resp-image-background-image {
+  background: none;
+}
 a.gatsby-resp-image-link {
   background: none;
 }
 
-
+a.gatsby-resp-image-link { background: none; }
 /* Inset, by Dan Eden */
 hr {
   border: 0;
