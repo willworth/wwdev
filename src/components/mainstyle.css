@@ -157,7 +157,9 @@ a:hover {
   padding: 2px;
 } */
 
-
+a.gatsby-resp-image-link {
+  background: none;
+}
 
 
 /* Inset, by Dan Eden */
@@ -171,4 +173,10 @@ hr {
 
 img {
     text-decoration: none;
+}
+
+
+p {
+  line-height: 150%;
+  margin: 3rem 0;
 }
