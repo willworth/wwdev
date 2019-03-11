@@ -4,6 +4,8 @@ import Layout from "../components/Layout";
 import bitcoin from "./bitcoinscreenshot.jpg";
 import bride from "./cookiepolicyscreenshot.jpg";
 import tarot from "./tarot.jpg";
+import songbook from "./songbook.jpg";
+
 
 const Portfolio = () => (
   <Layout>
@@ -39,6 +41,23 @@ of a CRUD app, an API calling app, some simple DOM manipulation, modern CSS, and
     <p>
       This Node app is a demonstration of fetching data from a remote API. It
       uses ejs templating, promise-based requests, and is hosted on heroku.
+    </p>
+    <hr />
+    <div className="portfolioSummary">
+      <h2>Songbook (Node CRUD example)</h2>
+      <h3>
+        {" "}
+        <a href="https://github.com/willworth/songbook">Code</a>.{" "}
+        <a href="https://wwdevsongbook.herokuapp.com/">
+          Demo deployed on heroku
+        </a>
+        .
+      </h3>
+    </div>
+    <img src={songbook} alt="songbook app screenshot" class="portfolioPic" />
+    <p>
+      I built this app to practise the core CRUD actions, gain familiarity with MongoDB and use the MVC design pattern.
+      I learnt a lot about authentication, using sessions cookies and password encryption.
     </p>
     <hr />
     <div className="portfolioSummary">
