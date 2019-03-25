@@ -5,6 +5,7 @@ import bitcoin from "./bitcoinscreenshot.jpg";
 import bride from "./cookiepolicyscreenshot.jpg";
 import tarot from "./tarot.jpg";
 import songbook from "./songbook.jpg";
+import conferences from "./conferencescreenshot.jpg"
 
 
 const Portfolio = () => (
@@ -24,6 +25,23 @@ of a CRUD app, an API calling app, some simple DOM manipulation, modern CSS, and
         therefore take a little time to start up. I think it's ok for a
         portfolio demo, but obviously not for production code.
       </em>
+    </p>
+    <hr />
+    <div className="portfolioSummary">
+      <h2>Frontend Conferences</h2>
+      <h3>
+        {" "}
+        <a href="https://github.com/willworth/conferences">API Code</a>.{" "}
+        <a href="https://github.com/willworth/conf">React frontend Code</a>.{" "}
+        <a href="https://willworth.github.io/conf/">
+          Demo (API deployed on heroku/Frontend on Github pages)
+        </a>
+        .
+      </h3>
+    </div>
+    <img src={conferences} alt="conferences app screenshot" class="portfolioPic" />
+    <p>
+      I've put together a node backend API serving JSON of conferences.  That's then being consumed by a React frontend, and dynamically laid out with CSS GRID.
     </p>
     <hr />
     <div className="portfolioSummary">
