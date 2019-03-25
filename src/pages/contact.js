@@ -26,14 +26,6 @@ const Contact = () => (
     <a href ="https://www.github.com/willworth/"> Github</a>.</p> 
     
 
-<p>    I'm working on improving my skills as best I can, and often think of this quote.  I hope it is helpful to you, as it is to me:</p>
-              
-    <blockquote>       
-
-“Tis in ourselves that we are thus or thus. Our bodies are our gardens to the which our wills are gardeners.”― Shakespeare, 
-<a href="http://www.shakespeare-online.com/plays/othello_1_3.html">Othello</a>
-
-</blockquote>
 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
