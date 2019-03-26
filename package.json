@@ -17,6 +17,7 @@
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.22",
     "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-s3": "^0.2.5",
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-plugin-styled-components": "^3.0.5",
     "gatsby-plugin-typography": "^2.2.7",
@@ -54,6 +55,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "aws s3 sync public s3://willworth.dev --acl public-read --delete"
+
   }
 }

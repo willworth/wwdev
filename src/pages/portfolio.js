@@ -5,7 +5,7 @@ import bitcoin from "./bitcoinscreenshot.jpg";
 import bride from "./cookiepolicyscreenshot.jpg";
 import tarot from "./tarot.jpg";
 import songbook from "./songbook.jpg";
-import conferences from "./conferencescreenshot.jpg";
+import conf from "./conf.jpg";
 
 
 const Portfolio = () => (
@@ -40,7 +40,7 @@ const Portfolio = () => (
         .
       </h3>
     </div>
-    <img src={conferences} alt="conferences app screenshot" class="portfolioPic" />
+    <img src={conf} alt="conferences app screenshot" class="portfolioPic" />
     <p>
       I've put together a node backend API serving JSON of conferences.  That's then being consumed by a React frontend, and dynamically laid out with CSS GRID.
     </p>
