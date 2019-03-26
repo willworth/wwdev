@@ -1,7 +1,7 @@
 {
   "name": "willworth.dev",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A code blog powered by Gatsby and Markdown",
   "version": "0.1.0",
   "author": "willworth",
   "bugs": {
@@ -39,15 +39,15 @@
     "typography": "^0.16.18",
     "typography-theme-wordpress-2016": "^0.16.18"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://willworth.dev",
   "keywords": [
-    "gatsby"
+    "willworth"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/willworth/wwdev"
   },
   "scripts": {
     "build": "gatsby build",
