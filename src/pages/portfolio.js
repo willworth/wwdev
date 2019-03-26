@@ -5,7 +5,7 @@ import bitcoin from "./bitcoinscreenshot.jpg";
 import bride from "./cookiepolicyscreenshot.jpg";
 import tarot from "./tarot.jpg";
 import songbook from "./songbook.jpg";
-import conferences from "./conferencescreenshot.jpg"
+import conferences from "./conferencescreenshot.jpg";
 
 
 const Portfolio = () => (
