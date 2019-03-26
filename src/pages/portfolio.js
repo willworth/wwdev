@@ -14,12 +14,9 @@ const Portfolio = () => (
     <p>
       A portfolio is an opportunity not just to show ability, but also
       demonstrate priorities. <br />
-      With that in mind, I've tried to choose projects that push me to improve- more than present 
-      me in the best light necessarily.  Looking at this list now, I clearly need to improve my 
-      visual styling and design skills, but that wasn't a priority for me until I felt I had the basics of 
-      react, crud, etc together.  I'm now planning to go back over these exploratory projects and polish them up a bit. 
+      My goal is a job as a fullstack javascript developer. <br /> 
       Trying to provide examples of the skils I think I need, below are examples of
-of a CRUD app, an API calling app, some simple DOM manipulation, modern CSS, and some React 
+ a CRUD app, an API calling app, some simple DOM manipulation, modern CSS, and some React 
 (of which, more soon.)  I'm planning to blog about approaches and lessons learnt...{" "}
     </p>
     
