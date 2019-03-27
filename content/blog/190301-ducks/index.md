@@ -8,3 +8,4 @@ Ducks! This post is just for testing images on the blog, but who doesn't like du
 
 ![Ducks alt text](./ducks.jpg)
 
+gatsby

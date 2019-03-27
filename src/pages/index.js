@@ -3,7 +3,8 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import will from "./bw.jpg" 
+// import will from "./bw.jpg" 
+import will from "./willcloseup2.jpg" 
 
 
 class BlogIndex extends React.Component {
@@ -22,8 +23,8 @@ class BlogIndex extends React.Component {
     <img  src={will} alt="Will" class="willpic"  />
         <h1>Hi!</h1>
   <blockquote>
-    <p> <em> I'm a Javascript developer with some professional experience
-       looking for a full time position.</em></p>
+    <p> <em> I'm a Javascript developer with professional experience
+       looking for my first full time position.</em></p>
     </blockquote> 
 
 <p>Please have a look at my <Link to="/portfolio">portfolio</Link>, the <Link to="/blog">blog</Link>, or <Link to="/contact">get in touch</Link>.</p>

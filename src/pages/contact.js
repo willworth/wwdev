@@ -1,15 +1,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from "../components/Layout"
+import will from "./willcloseup.jpg" 
 
 
 const Contact = () => (
   <Layout>
    <h1>Hi!</h1>
   <blockquote>
-    <p>I'm a Javascript developer with some professional experience
-       looking for a full time position.</p>
+     <em> I'm a Javascript developer with professional experience
+       looking for a full time position.</em>
     </blockquote>  
+    <img  src={will} alt="Will" class="willpic"  />
     <p>Most recently, I've been focusing on Javascript- with Node, Express, and React.
       My desire to improve these skills led me to choose Gatsby to build
       this site (though, frankly, I don't feel I'm fully leveraging the advantages of React, yet). </p>
@@ -21,7 +23,7 @@ const Contact = () => (
        (I'm open to opensource volunteer project work, too), please do get in touch.</p>
        <p>Tambien hablo <Link to="/espanol">español</Link>.</p>
     <p> 
-    <a href="mailto:willworthdev@gmail.com">Send me an email</a> or find me on 
+    <a href="mailto:email@willworth.dev">Send me an email</a> or find me on 
     <a href ="https://www.linkedin.com/in/willworth/"> LinkedIn</a> or 
     <a href ="https://www.github.com/willworth/"> Github</a>.</p> 
     
