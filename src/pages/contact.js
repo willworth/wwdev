@@ -9,7 +9,7 @@ const Contact = () => (
    <h1>Hi!</h1>
   <blockquote>
      <em> I'm a Javascript developer with professional experience
-       looking for a full time position.
+       looking for a full time position.</em>
     </blockquote>  
     <img  src={will} alt="Will" class="willpic"  />
     <p>Most recently, I've been focusing on Javascript- with Node, Express, and React.
