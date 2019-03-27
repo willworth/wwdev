@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from "../components/Layout"
-import will from "./willcloseup.jpg" 
+import will from "./bw.jpg" 
 
 
 const Contact = () => (
@@ -9,7 +9,7 @@ const Contact = () => (
    <h1>Hi!</h1>
   <blockquote>
      <em> I'm a Javascript developer with professional experience
-       looking for a full time position.</em>
+       looking for a full time position.
     </blockquote>  
     <img  src={will} alt="Will" class="willpic"  />
     <p>Most recently, I've been focusing on Javascript- with Node, Express, and React.
