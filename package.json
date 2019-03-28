@@ -1,7 +1,7 @@
 {
   "name": "willworth.dev",
   "private": true,
-  "description": "A code blog powered by Gatsby and Markdown",
+  "description": "The personal coding blog of Will Worth",
   "version": "0.1.0",
   "author": "willworth",
   "bugs": {
@@ -57,6 +57,5 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "deploy": "aws s3 sync public s3://willworth.dev --acl public-read --delete"
-
   }
 }
