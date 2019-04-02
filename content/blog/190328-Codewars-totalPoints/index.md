@@ -76,8 +76,10 @@ function points(games) {
 Others are impressively concise, but I'm keenly aware that intelligabilty is a key measure of code- especially if you're working on a team
 
 ```javascript
-const points = g => g.reduce((a, [x, _, y]) => a + (x > y ? 3 : x == y), 0)
+const points = g => g.reduce((a, [x, _, y]) => a + (x > y ? 3 : x == y ? 1 : 0)
 ```
+(I've since been told that this sort of thing is known as "write only code". Obviously a style to be avoided...)
+
 
 ### Lessons learnt and areas for improvement
 
@@ -96,14 +98,14 @@ function points(games) {
 let teamScore = 0;
 for (i=0; i<games.length; i++) {
 
-let home = parseInt(games[i].charAt(0));
-let away = parseInt(games[i].charAt(2));
-if (home > away)
-{  teamScore += 3;} 
-else if (home == away)
-{ teamScore += 1;} 
+  let home = parseInt(games[i].charAt(0));
+  let away = parseInt(games[i].charAt(2));
+  if (home > away)
+    {  teamScore += 3;} 
+  else if (home == away)
+    { teamScore += 1;} 
 
-}
+  }
 return teamScore;
 }
 ```
