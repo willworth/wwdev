@@ -1,7 +1,19 @@
 import React from "react";
-import { Link } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
+<StaticQuery
+  query={graphql`
+    query HeadingQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `}
+  render={data =>(
+
   <div className ="header" >
     <div  style={{
         margin: "0 auto",
@@ -22,7 +34,7 @@ const Header = ({ siteTitle }) => (
              letterSpacing: "1px"
           }}
         >
-          willworth.dev
+          {data.site.siteMetadata.title}
         </Link>
       </h1>
       <nav>
@@ -34,6 +46,8 @@ const Header = ({ siteTitle }) => (
       </nav>
     </div>
   </div>
+  )}
+/>
 );
 
 export default Header;
