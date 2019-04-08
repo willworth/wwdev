@@ -30,6 +30,7 @@ body {
  
 .footer {
   flex-grow:1;
+  border-top: thick double gold;
 }
 
 

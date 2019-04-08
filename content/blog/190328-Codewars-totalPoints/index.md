@@ -2,7 +2,7 @@
 title: Codewars Total Points 
 date: "2019-03-28"
 ---
-# Codewars Challenge:  "Total Points"
+
 
 I'm going to blog coding exercises I do to document my learning, try to extract lessons, and pick up best practices.  This first example isn't very impressive, but it's the one I've done this morning, so it's where I'll start.  
 

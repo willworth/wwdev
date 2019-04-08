@@ -16,7 +16,7 @@ const Footer = () => (
           style={{
             color: "black",
             textDecoration: "none",
-            marginLeft: "40px",
+            marginLeft: "60px",
              letterSpacing: "2px",
              fontFamily: "monospace"
           }}
