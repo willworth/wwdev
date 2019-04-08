@@ -1,6 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 import Header from "./header"
+import Footer from "./footer"
 import './mainstyle.css'
 
 
@@ -11,18 +12,16 @@ class Layout extends React.Component {
     
      
     return (
-      <div
-      
-    >
+      <div  className ="layout">
            <Header/>   
         
-        <main style={{
+        <main className ="main" style={{
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
         
       }}>{children}</main>
-        
+        <Footer/>
       </div>
     )
   }
