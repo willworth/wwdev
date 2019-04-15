@@ -14,12 +14,17 @@ const Header = () => (
   `}
   render={data =>(
 
-  <div className ="header" >
+    <div className ="header"
+    style={{
+      background: "#073541",
+      marginBottom: "1.45rem",
+    }}
+  >
     <div  style={{
         margin: "0 auto",
         maxWidth: 960,
         padding: "1.45rem 1.0875rem",
-        backgroundColor: "teal"
+        backgroundColor: "#073541"
         
       }}
     >
@@ -27,7 +32,7 @@ const Header = () => (
         <Link 
           to="/" className = "sitetitle"
           style={{
-            color: "black",
+            color: "#3a9bfb",
             fontFamily: "monospace",
             textDecoration: "none",
             padding: "5px",

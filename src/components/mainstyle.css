@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lora|Rock+Salt');
 body {
-  background-color: #e6e8e6;
+  background-color: #002b36;
   margin: 0px;
   padding: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Lora', serif;
   font-size: 1.5em;
-  color: #080708;
+  color: #359f96;
 }
 
 
@@ -21,7 +22,7 @@ body {
 .header {
    flex-grow:1;
    background-color: teal;
-   border-bottom: thick double gold;
+   border-bottom: thick double #3a9bfb;
    }
 
 .main {
@@ -48,7 +49,7 @@ main a {
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 4px 4px;
-  color: #000;
+  color: #b58900;
   text-decoration: none;
   transition: background-size 0.2s;
 }
@@ -99,6 +100,12 @@ link {
   text-align: right;
   font-family: monospace;
   background-color: darkcyan;
+  background-color: #3a9bfb;
+  color: black;
+}
+
+.portfolioSummary  a {
+  color: black;
 }
 
 nav {

@@ -1,5 +1,5 @@
 ---
-title: Queries in Gatsby
+title: APIs, graphQL, and queries in Gatsby
 date: "2019-04-09"
 ---
 
@@ -21,7 +21,7 @@ So what does that mean and why should we care?
 
 An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is, simply, a way to connect to a program.  If a company wants to allow others to access its program, it makes a public API for people to connect to. (Of course, companies routinely have APIs for different programs within their organisations to communicate, too.)  Goodreads, a book based social network now owned by Amazon, has a traditional API.  [Here's the API listings page](https://www.goodreads.com/api).
 
-If you look at those listings, you'll see that they are all different addresses - URLS.  These are called "endpoints" when talking about APIs. So just like accessing a normal website, different addresse (endpoints) provide you different things:
+If you look at those listings, you'll see that they are all different addresses - URLS.  These are called "endpoints" when talking about APIs. So just like accessing a normal website, different addresses (endpoints) provide you different things:
 ```
 Get the reviews for a book given an ISBN:
 https://www.goodreads.com/book/isbn/ISBN?format=FORMAT 

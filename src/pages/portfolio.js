@@ -115,7 +115,7 @@ const Portfolio = () => (
     </p>
     <hr />
     <p>
-      <a href="mailto:willworthdev@gmail.com">Email me</a>.
+      <a href="mailto:email@willworth.dev">Email me</a>.
     </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
