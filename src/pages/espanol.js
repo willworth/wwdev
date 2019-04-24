@@ -12,8 +12,8 @@ const Espanol = () => (
 
     <p> 
     <a href="mailto:willworthdev@gmail.com">Envíame un correo</a> o me puedes encontrar aquí: 
-    <a href ="https://www.linkedin.com/in/willworth/"> LinkedIn</a> o 
-    <a href ="https://www.github.com/willworth/"> Github</a>.</p> 
+    <a href ="https://www.linkedin.com/in/willworth/" target="_blank"> LinkedIn</a> o 
+    <a href ="https://www.github.com/willworth/" target="_blank"> Github</a>.</p> 
     
     <Link to="/">Volver</Link>
   </Layout>
