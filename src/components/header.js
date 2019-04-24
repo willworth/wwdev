@@ -33,7 +33,7 @@ const Header = () => (
           to="/" className = "sitetitle"
           style={{
             color: "#3a9bfb",
-            fontFamily: "monospace",
+            fontFamily: "Righteous",
             textDecoration: "none",
             padding: "5px",
              letterSpacing: "1px"

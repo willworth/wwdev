@@ -24,8 +24,8 @@ const Contact = () => (
        <p>Tambien hablo <Link to="/espanol">español</Link>.</p>
     <p> 
     <a href="mailto:email@willworth.dev">Send me an email</a> or find me on 
-    <a href ="https://www.linkedin.com/in/willworth/" target="_blank"> LinkedIn</a> or 
-    <a href ="https://www.github.com/willworth/" target="_blank"> Github</a>.</p> 
+    <a href ="https://www.linkedin.com/in/willworth/" target="_blank" rel="noopener noreferrer"> LinkedIn</a> or 
+    <a href ="https://www.github.com/willworth/" target="_blank" rel="noopener noreferrer"> Github</a>.</p> 
     
 
 
