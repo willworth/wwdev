@@ -3,6 +3,7 @@ import React from "react"
 import Header from "./header"
 import Footer from "./footer"
 // import './mainstyle.css'
+import layoutStyles from "../styles/layout.module.scss"
 
 
 class Layout extends React.Component {
@@ -12,15 +13,10 @@ class Layout extends React.Component {
     
      
     return (
-      <div  className ="layout">
+      <div  className ={layoutStyles.layout}>
            <Header/>   
         
-        <main className ="main" style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-        
-      }}>{children}</main>
+        <main className ={layoutStyles.main}>{children}</main>
         <Footer/>
       </div>
     )
