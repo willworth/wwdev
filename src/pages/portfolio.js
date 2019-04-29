@@ -1,15 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Layout from "../components/Layout";
-import bitcoin from "./bitcoinscreenshot.jpg";
-import bride from "./cookiepolicyscreenshot.jpg";
-import tarot from "./tarot.jpg";
-import songbook from "./songbook.jpg";
-import conf from "./conf.jpg";
+import SEO from "../components/seo"
 
 
-const Portfolio = () => (
+const Portfolio = (props) => (
   <Layout>
+    <SEO title="Will Worth: Portfolio" />
     <h1>Portfolio</h1>
     <p>
       A portfolio is an opportunity not just to show ability, but also
@@ -40,7 +38,7 @@ const Portfolio = () => (
         .
       </h3>
     </div>
-    <img src={conf} alt="conferences app screenshot" class="portfolioPic" />
+    <Img fluid={props.data.conference.childImageSharp.fluid} alt="songbook app screenshot" class="portfolioPic" />
     <p>
       I've put together a node backend API serving JSON of conferences.  That's then being consumed by a React frontend, and dynamically laid out with CSS GRID.
     </p>
@@ -56,7 +54,7 @@ const Portfolio = () => (
         .
       </h3>
     </div>
-    <img src={bitcoin} alt="Bitcoin app screenshot" class="portfolioPic" />
+    <Img fluid={props.data.bitcoin.childImageSharp.fluid} alt="songbook app screenshot" class="portfolioPic" />
     <p>
       This Node app is a demonstration of fetching data from a remote API. It
       uses ejs templating, promise-based requests, and is hosted on heroku.
@@ -73,7 +71,7 @@ const Portfolio = () => (
         .
       </h3>
     </div>
-    <img src={songbook} alt="songbook app screenshot" class="portfolioPic" />
+    <Img fluid={props.data.songbook.childImageSharp.fluid} alt="songbook app screenshot" class="portfolioPic" />
     <p>
       I built this app to practise the core CRUD actions, gain familiarity with MongoDB and use the MVC design pattern.
       I learnt a lot about authentication, using sessions cookies and password encryption.
@@ -86,7 +84,7 @@ const Portfolio = () => (
         <a href="https://www.bridemagazine.co.uk/">Live on the web</a>.
       </h3>
     </div>
-    <img src={bride} alt="Bride site screenshot" class="portfolioPic" />
+    <Img fluid={props.data.cookie.childImageSharp.fluid} alt="songbook app screenshot" class="portfolioPic" />
     <p>
       This example is a simple javascript overlay advising viewers about the
       site's privacy policy. It was deployed across{" "}
@@ -107,7 +105,7 @@ const Portfolio = () => (
         .
       </h3>
     </div>
-    <img src={tarot} alt="Bitcoin app screenshot" class="portfolioPic" />
+    <Img fluid={props.data.tarot.childImageSharp.fluid} alt="songbook app screenshot" class="portfolioPic" />
     <p>
       Although I've been learning React, I wanted to have something showing
       direct DOM manipulation. This is essentially a random number generator
@@ -122,3 +120,37 @@ const Portfolio = () => (
 );
 
 export default Portfolio;
+
+
+
+
+export const portfolioQuery = graphql`
+  query {
+    songbook: file(relativePath: { eq: "songbook.jpg" }) {
+      ...fluidImage
+    }
+    bitcoin: file(relativePath: { eq: "bitcoinscreenshot.jpg" }) {
+      ...fluidImage
+    }
+    conference: file(relativePath: { eq: "conferencescreenshot.jpg" }) {
+      ...fluidImage
+    }
+    tarot: file(relativePath: { eq: "tarot.jpg" }) {
+      ...fluidImage
+    }
+    cookie: file(relativePath: { eq: "cookiepolicyscreenshot.jpg" }) {
+      ...fluidImage
+    }
+  }
+`
+
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid
+    }
+  }
+}
+`;
