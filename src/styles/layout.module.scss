@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lora|Rock+Salt");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+body {
+  background-color: #002b36;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lora", serif;
+  font-size: 1.2em;
+  // color: #359f96;
+  color: silver;
+}
+
 .layout {
   display: flex;
   justify-content: space-between;
@@ -11,4 +24,45 @@
   max-width: 960px;
   padding: 1.45em 1.0875em;
   flex-grow: 20;
+
+  a {
+    // background: linear-gradient(to bottom, #fdca40 0%, #a5a5a5 100%);
+    background: inherit;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #b58900;
+    text-decoration: none;
+    transition: background-size 0.2s;
+
+    &:hover {
+      text-decoration: underline;
+      background-size: 4px 50px;
+      color: #b8c95c;
+      color: goldenrod;
+      border-bottom-color: #b8c95c;
+      border-bottom-color: #pink;
+    }
+  }
+}
+
+img:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 110%;
+  margin: 3rem 0;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  clear: both;
+}
+
+link {
+  text-decoration: none;
 }

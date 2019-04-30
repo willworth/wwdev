@@ -19,7 +19,7 @@ class BlogIndex extends React.Component {
         />
         
     <img  src={will} alt="Will" class="willpic"  />
-        <h1>Hi!</h1>
+        <h2>Hi! </h2>
   <blockquote>
     <p> <em> I'm a Javascript developer with professional experience
        looking for my first full time position.</em></p>

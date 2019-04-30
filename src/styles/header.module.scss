@@ -1,0 +1,47 @@
+.header {
+  flex-grow: 1;
+  border-bottom: thick double #3a9bfb;
+  border-bottom: thick double gold;
+
+  background: #073541;
+  margin-bottom: 1.45rem;
+}
+
+.headerInner {
+  margin: 0 auto;
+  max-width: 960px;
+  //   padding: 1rem 1.0875rem;
+  padding: 0.5rem;
+}
+
+.sitetitle {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #3a9bfb;
+  font-family: Righteous;
+  text-decoration: none;
+  padding: 3px;
+  letter-spacing: 1px;
+
+  @media screen and (min-width: 414px) {
+    color: gold;
+    font-size: 2rem;
+  }
+}
+.nav {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navLinks {
+  text-decoration: none;
+  color: #b58900;
+
+  &:hover {
+    text-decoration: none;
+    color: goldenrod;
+  }
+}

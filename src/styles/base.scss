@@ -1,72 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lora|Rock+Salt");
 @import url("https://fonts.googleapis.com/css?family=Righteous");
 
-body {
-  background-color: #002b36;
-  margin: 0px;
-  padding: 0px;
-  font-family: "Lora", serif;
-  font-size: 1.5em;
-  color: #359f96;
-}
-
-// .layout {
-//   display: flex;
-//   justify-content: space-between;
-//   flex-direction: column;
-//   align-items: stretch;
-//   height: 100vh;
+// body {
+//   background-color: #002b36;
+//   margin: 0px;
+//   padding: 0px;
+//   font-family: "Lora", serif;
+//   font-size: 1.2em;
+//   color: #359f96;
 // }
-
-.header {
-  flex-grow: 1;
-  background-color: teal;
-  border-bottom: thick double #3a9bfb;
-}
-
-.main {
-  flex-grow: 20;
-}
 
 .footer {
   flex-grow: 1;
   border-top: thick double gold;
 }
 
-a {
-  color: #e5f77d;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-main a {
-  background: linear-gradient(to bottom, #fdca40 0%, #fdca40 100%);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 4px;
-  color: #b58900;
-  text-decoration: none;
-  transition: background-size 0.2s;
-}
-
-a:hover {
-  background-size: 4px 50px;
-}
-
-img:hover {
-  text-decoration: none;
-}
-
 a .gatsby-resp-image-link {
   text-decoration: none;
   background: none;
-}
-
-link {
-  color: #e5f77d;
-  text-decoration: none;
 }
 
 .willpic {
@@ -101,29 +52,10 @@ link {
   color: black;
 }
 
-nav {
-  /* float: right; */
-  /* font-family: 'Courier New', Courier, monospace; */
-  font-family: "Montserrat", sans-serif;
-  color: #df2935;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-////////////////////////
-
-nav > a {
-  /* margin: 20px; */
-  /* padding: 4rem; */
-  text-decoration: none;
-  border-bottom: 1px solid #52c9aa;
-}
-
 a:hover {
   color: #b8c95c;
   border-bottom-color: #b8c95c;
+  border-bottom-color: #pink;
 }
 
 @media screen and (max-width: 920px) {
@@ -140,10 +72,6 @@ a:hover {
   }
 }
 
-.sitetitle {
-  font-size: 3rem;
-}
-
 @media screen and (max-width: 414px) {
   .sitetitle {
     font-size: 1.5rem;
@@ -152,13 +80,6 @@ a:hover {
   }
 }
 
-/* 
-.nav > Link {
-  color: #df2935;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  padding: 2px;
-} */
 a.gatsby-resp-image-background-image {
   background: none;
 }
@@ -169,20 +90,7 @@ a.gatsby-resp-image-link {
 a.gatsby-resp-image-link {
   background: none;
 }
-/* Inset, by Dan Eden */
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  clear: both;
-}
 
 img {
   text-decoration: none;
-}
-
-p {
-  line-height: 110%;
-  margin: 3rem 0;
 }
