@@ -14,11 +14,12 @@ const Footer = () => (
         <Link 
           to="/" 
           style={{
-            color: "#3a9bfb",
+            color: "silver",
+            padding: "2rem",
             textDecoration: "none",
-            marginLeft: "60px",
+            marginLeft: "70px",
              letterSpacing: "2px",
-             fontFamily: "monospace"
+             fontFamily: "Righteous"
           }}
         >
           willworth.dev

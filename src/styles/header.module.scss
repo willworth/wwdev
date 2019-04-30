@@ -2,6 +2,7 @@
   flex-grow: 1;
   border-bottom: thick double #3a9bfb;
   border-bottom: thick double gold;
+  border-bottom: thick double silver;
 
   background: #073541;
   margin-bottom: 1.45rem;
@@ -10,8 +11,12 @@
 .headerInner {
   margin: 0 auto;
   max-width: 960px;
-  //   padding: 1rem 1.0875rem;
   padding: 0.5rem;
+  text-align: center;
+
+  @media screen and (min-width: 600px) {
+    text-align: left;
+  }
 }
 
 .sitetitle {
@@ -24,20 +29,25 @@
   letter-spacing: 1px;
 
   @media screen and (min-width: 414px) {
-    color: gold;
+    color: silver;
     font-size: 2rem;
   }
 }
+
 .nav {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 414px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 .navLinks {
   text-decoration: none;
+  flex-direction: column;
   color: #b58900;
 
   &:hover {

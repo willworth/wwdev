@@ -12,7 +12,7 @@
 
 .footer {
   flex-grow: 1;
-  border-top: thick double gold;
+  border-top: thick double silver;
 }
 
 a .gatsby-resp-image-link {
@@ -44,7 +44,7 @@ a .gatsby-resp-image-link {
   text-align: right;
   font-family: monospace;
   background-color: darkcyan;
-  background-color: #3a9bfb;
+  // background-color: #3a9bfb;
   color: black;
 }
 
@@ -65,20 +65,20 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 414px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-}
+// @media screen and (max-width: 414px) {
+//   nav {
+//     flex-direction: column;
+//     align-items: center;
+//   }
+// }
 
-@media screen and (max-width: 414px) {
-  .sitetitle {
-    font-size: 1.5rem;
-    margin: 0 auto;
-    text-align: center;
-  }
-}
+// @media screen and (max-width: 414px) {
+//   .sitetitle {
+//     font-size: 1.5rem;
+//     margin: 0 auto;
+//     text-align: center;
+//   }
+// }
 
 a.gatsby-resp-image-background-image {
   background: none;
