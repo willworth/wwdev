@@ -6,7 +6,7 @@ const Footer = () => (
     style={{
       background: "#073541",
     //   marginBottom: "1.45rem",
-      minHeight: "10vh"
+      // minHeight: "10vh"
     }}
   >
     

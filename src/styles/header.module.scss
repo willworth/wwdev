@@ -1,11 +1,7 @@
 .header {
-  flex-grow: 1;
-  border-bottom: thick double #3a9bfb;
-  border-bottom: thick double gold;
   border-bottom: thick double silver;
-
   background: #073541;
-  margin-bottom: 1.45rem;
+  // margin-bottom: 1.45rem;
 }
 
 .headerInner {
@@ -22,15 +18,16 @@
 .sitetitle {
   font-size: 1.2rem;
   margin: 0;
-  color: #3a9bfb;
+  // color: #3a9bfb;
+  color: silver;
   font-family: Righteous;
   text-decoration: none;
-  padding: 3px;
+  // padding: 3px;
   letter-spacing: 1px;
 
   @media screen and (min-width: 414px) {
-    color: silver;
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -49,7 +46,7 @@
   text-decoration: none;
   flex-direction: column;
   color: #b58900;
-
+  margin-bottom: 0.5rem;
   &:hover {
     text-decoration: none;
     color: goldenrod;
