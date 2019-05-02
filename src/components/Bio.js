@@ -20,6 +20,7 @@ function Bio() {
               alt={author}
               style={{
                 marginBottom: 0,
+                marginTop: "1rem",
                 minWidth: 50,
                 borderRadius: `100%`,
               }}

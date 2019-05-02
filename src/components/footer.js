@@ -4,18 +4,17 @@ import { Link } from "gatsby";
 const Footer = () => (
   <div className ="footer"
     style={{
-      background: "#073541",
-    //   marginBottom: "1.45rem",
-      // minHeight: "10vh"
+      // background: "#073541"
+    
     }}
   >
     
-      <h3 style={{ margin: 0 }}>
+      <h3 >
         <Link 
           to="/" 
           style={{
             color: "silver",
-            padding: "2rem",
+            paddingTop: "2rem",
             textDecoration: "none",
             marginLeft: "70px",
              letterSpacing: "2px",

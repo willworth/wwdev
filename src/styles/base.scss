@@ -1,17 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lora|Rock+Salt");
 @import url("https://fonts.googleapis.com/css?family=Righteous");
 
-// body {
-//   background-color: #002b36;
-//   margin: 0px;
-//   padding: 0px;
-//   font-family: "Lora", serif;
-//   font-size: 1.2em;
-//   color: #359f96;
-// }
-
 .footer {
-  flex-grow: 1;
   border-top: thick double silver;
 }
 
@@ -27,7 +17,6 @@ a .gatsby-resp-image-link {
   border-radius: 10px;
   margin: 0px 0 0 0;
   padding: 10px;
-  /* align-self: right; */
 }
 .portfolioPic {
   max-height: 430px;
@@ -44,7 +33,6 @@ a .gatsby-resp-image-link {
   text-align: right;
   font-family: monospace;
   background-color: darkcyan;
-  // background-color: #3a9bfb;
   color: black;
 }
 
@@ -57,28 +45,6 @@ a:hover {
   border-bottom-color: #b8c95c;
   border-bottom-color: #pink;
 }
-
-@media screen and (max-width: 920px) {
-  nav {
-    justify-content: space-evenly;
-    /* // currently changing nothing  */
-  }
-}
-
-// @media screen and (max-width: 414px) {
-//   nav {
-//     flex-direction: column;
-//     align-items: center;
-//   }
-// }
-
-// @media screen and (max-width: 414px) {
-//   .sitetitle {
-//     font-size: 1.5rem;
-//     margin: 0 auto;
-//     text-align: center;
-//   }
-// }
 
 a.gatsby-resp-image-background-image {
   background: none;

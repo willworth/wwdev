@@ -1,26 +1,24 @@
-import React from "react"
-// import { Link } from "gatsby"
-import Header from "./header"
-import Footer from "./footer"
-// import './mainstyle.css'
-import layoutStyles from "../styles/layout.module.scss"
-
+import React from "react";
+import Header from "./header";
+import Footer from "./footer";
+import layoutStyles from "../styles/layout.module.scss";
 
 class Layout extends React.Component {
-  
   render() {
-    const {   children } = this.props
-    
-     
+    const { children } = this.props;
+
     return (
-      <div  className ={layoutStyles.layout}>
-           <Header/>   
-        
-        <main className ={layoutStyles.main}>{children}</main>
-        <Footer/>
+      <div className={layoutStyles.container}>
+        <Header />
+        <div className={layoutStyles.content}>
+         <div className={layoutStyles.main}>
+          {children}
+         </div>
+          <Footer />
+        </div>
       </div>
-    )
+    );
   }
 }
 
-export default Layout
+export default Layout;
