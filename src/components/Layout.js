@@ -14,8 +14,8 @@ class Layout extends React.Component {
          <div className={layoutStyles.main}>
           {children}
          </div>
-          <Footer />
         </div>
+          <Footer />
       </div>
     );
   }
