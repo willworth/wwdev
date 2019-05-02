@@ -19,7 +19,9 @@ class Layout extends React.Component {
       </div>
     );
   }
-}s
+}
+
+
 
 
 export default Layout;
