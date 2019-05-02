@@ -1,3 +1,4 @@
+import "./src/styles/hamburgers/hamburgers.scss"
 require("prismjs/themes/prism-okaidia.css")
 // require('./src/components/mainstyle.css')
 require('./src/styles/gatsbyReset.css')
