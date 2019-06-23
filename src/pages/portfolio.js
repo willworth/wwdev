@@ -27,6 +27,27 @@ const Portfolio = props => (
     </p>
     <hr />
     <div className="portfolioSummary">
+      <h2>React conference viewer</h2>
+      <h3>
+        {" "}
+        <a href="https://github.com/willworth/reactfrontendconferenceviewer">
+          Code on github
+        </a>{" "}
+        <a href="https://trusting-kirch-fda3f9.netlify.com/">
+          Demo (Deployed with Netlify)
+        </a>
+      </h3>
+    </div>
+    <Img
+      fluid={props.data.confnew.childImageSharp.fluid}
+      alt="conference app screenshot"
+      class="portfolioPic"
+    />
+    <p>
+      This is an update on the conference viewer below- it's now using state and
+      props to allow you to create a shortlist.
+    </p>
+    <div className="portfolioSummary">
       <h2>Frontend Conferences</h2>
       <h3>
         {" "}
@@ -35,12 +56,11 @@ const Portfolio = props => (
         <a href="https://willworth.github.io/conf/">
           Demo (API deployed on heroku/Frontend on Github pages)
         </a>
-        
       </h3>
     </div>
     <Img
       fluid={props.data.conference.childImageSharp.fluid}
-      alt="songbook app screenshot"
+      alt="conference app screenshot"
       class="portfolioPic"
     />
     <p>
@@ -156,6 +176,9 @@ export const portfolioQuery = graphql`
       ...fluidImage
     }
     cookie: file(relativePath: { eq: "cookiepolicyscreenshot.jpg" }) {
+      ...fluidImage
+    }
+    confnew: file(relativePath: { eq: "confnew.png" }) {
       ...fluidImage
     }
   }
