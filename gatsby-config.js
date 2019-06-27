@@ -1,35 +1,35 @@
 module.exports = {
   siteMetadata: {
-    title: 'willworth.dev',
-    sitetitle: 'willworth.dev',
-    author: 'Will Worth',
-    description: 'Coding blog of Will Worth.',
-    siteUrl: 'https://www.willworth.dev/',
+    title: "willworth.dev",
+    sitetitle: "willworth.dev",
+    author: "Will Worth",
+    description: "Coding blog of Will Worth.",
+    siteUrl: "https://www.willworth.dev/",
     social: {
-      twitter: `willworthdev`,
-    },
+      twitter: `willworthdev`
+    }
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
+        name: `blog`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
+        name: `assets`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: `pages`,
-      },
+        name: `pages`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -38,14 +38,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
-            },
+              maxWidth: 590
+            }
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
+              wrapperStyle: `margin-bottom: 1.0725rem`
+            }
           },
           {
             resolve: `gatsby-transformer-remark`,
@@ -84,32 +84,30 @@ module.exports = {
                     showLineNumbers: false,
                     // If setting this to true, the parser won't handle and highlight inline
                     // code used in markdown i.e. single backtick code like `this`.
-                    noInlineHighlight: false,
-                  },
-                },
-              ],
-            },
+                    noInlineHighlight: false
+                  }
+                }
+              ]
+            }
           },
           {
             resolve: `gatsby-transformer-remark`,
             options: {
-              plugins: [
-                `gatsby-remark-prismjs`,
-              ]
+              plugins: [`gatsby-remark-prismjs`]
             }
           },
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-        ],
-      },
+          `gatsby-remark-smartypants`
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
+        trackingId: `UA-142843948-1`
+      }
     },
     `gatsby-plugin-feed`,
     {
@@ -120,20 +118,19 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `minimal-ui`
         // icon: `content/assets/gatsby-icon.png`,
-      },
+      }
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-sass`
-    ,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-          bucketName: 'willworth.dev'
-      },
-  },
-  ],
-}
+        bucketName: "willworth.dev"
+      }
+    }
+  ]
+};
