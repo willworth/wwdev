@@ -9,13 +9,16 @@ const Portfolio = props => (
     <SEO title="Will Worth: Portfolio" />
     <h1>Portfolio</h1>
     <p>
-      A portfolio is an opportunity not just to show ability, but also
-      demonstrate priorities. <br />
-      My goal is a job as a fullstack javascript developer. <br />
-      Trying to provide examples of the skils I think I need, below are examples
-      of a CRUD app, an API calling app, some simple DOM manipulation, modern
-      CSS, and some React (of which, more soon.) I'm planning to blog about
-      approaches and lessons learnt...{" "}
+      {" "}
+      <a
+        href="https://tinyurl.com/espwwdev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {" "}
+        Descargar mi currículum (download my c.v. in Spanish)
+      </a>
+      .
     </p>
 
     <p>

@@ -17,7 +17,7 @@ const Espanol = () => (
       <p>
         {" "}
         <a
-          href="https://tinyurl.com/wwdev"
+          href="https://tinyurl.com/espwwdev"
           target="_blank"
           rel="noopener noreferrer"
         >

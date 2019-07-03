@@ -13,31 +13,22 @@ const Contact = () => (
         full time position.
       </em>
     </blockquote>
+
+    <img src={will} alt="Will" class="willpic" />
     <p>
       {" "}
       <a
-        href="https://tinyurl.com/wwdev"
+        href="https://tinyurl.com/espwwdev"
         target="_blank"
         rel="noopener noreferrer"
       >
         {" "}
-        Download/view my C.V.
+        Download/view my C.V. (in Spanish)
       </a>
-    </p>
-    <img src={will} alt="Will" class="willpic" />
-    <p>
-      Most recently, I've been focusing on Javascript- with Node, Express, and
-      React. My desire to improve these skills led me to choose Gatsby to build
-      this site (though, frankly, I don't feel I'm fully leveraging the
-      advantages of React, yet).{" "}
     </p>
     <p>
       For details of what I've been working on, please see my{" "}
       <Link to="/portfolio">portfolio</Link>.{" "}
-    </p>
-    <p>
-      Apart from the above, I've also worked with wordpress and PHP, and as a
-      tester with a python stack on a large scale webscraping project.{" "}
     </p>
 
     <p>
