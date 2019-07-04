@@ -23,8 +23,17 @@ const Contact = () => (
         rel="noopener noreferrer"
       >
         {" "}
-        Download/view my C.V. (in Spanish)
+        Descargar mi currículum (en español)
       </a>
+      . <br /> <br />
+      <a
+        href="https://tinyurl.com/engwwdev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download my c.v. (in English)
+      </a>
+      .
     </p>
     <p>
       For details of what I've been working on, please see my{" "}
