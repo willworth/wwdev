@@ -9,12 +9,13 @@ const Footer = () => (
     }}
   >
     
-      <h3 >
+      <h3 style={{
+            paddingTop: "2rem",
+            }}>
         <Link 
           to="/" 
           style={{
             color: "silver",
-            paddingTop: "2rem",
             textDecoration: "none",
             marginLeft: "70px",
              letterSpacing: "2px",
