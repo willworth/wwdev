@@ -21,8 +21,6 @@ I can't summarise the problem better than this introduction, from [campaignmonit
 
 If you scan over the rest of their (excellent) article, you'll see that -compared with making a regular web page- coding emails is still a **nightmare**.
 
-![](mjml.png)
-
 ## MJML
 
 [Mailjet](https://www.mailjet.com/) are a "Paris-based, all-in-one Email Service Provider". Their business is email, and one of their services is a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor for their non-technical clients to produce their emails. In the process of developing this editor, mailjet had to learn about all the horrible quirks mentioned above, and create a system to abtract that away. Wonderfully, they chose to open source the result, and that's [MJML](https://mjml.io/) | [source on github](https://github.com/mjmlio/mjml). (The focus of this tutorial.)
@@ -42,9 +40,7 @@ npm install mjml
 ```
 
 I use, and recommend the code editor [vscode](https://code.visualstudio.com/). It's free, really great, and there is a free extension for MJML, which you can get [here](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) or find easily using vscode's extension search feature.
-As you can see in the gif below, you create your mjml file and then you open a preview pane to the side, to show your output as you code:
-
-![mjml vscode plugin](./mjml-preview.gif)
+Then you can create your mjml file and open a preview pane to the side, to show your output as you code.
 
 ## Key ideas
 
