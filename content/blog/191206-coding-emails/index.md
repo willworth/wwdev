@@ -11,13 +11,13 @@ Technology continues to improve, but it's accepted wisdom that writing (coding) 
 
 I can't summarise the problem better than this introduction, from [campaignmonitor.com](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/):
 
-    "Unfortunately, while [the browser wars were] being fought, email clients like Outlook and Lotus Notes [...] were left behind.
+> "Unfortunately, while [the browser wars were] being fought, email clients like Outlook and Lotus Notes [...] were left behind.
 
-    Even worse than not trying to improve their HTML and CSS rendering, some email clients have actually gone backwards. Three years ago, Microsoft decided Outlook 2007 would stop using Internet Explorer to render HTML emails. Before you get all excited, they were replacing it with Microsoft Word. Yes, that Microsoft Word, the word processor. In one version, Outlook went from being decent and understandable to downright terrible at displaying HTML emails from anyone except other Outlook users.
+> Even worse than not trying to improve their HTML and CSS rendering, some email clients have actually gone backwards. Three years ago, Microsoft decided Outlook 2007 would stop using Internet Explorer to render HTML emails. Before you get all excited, they were replacing it with Microsoft Word. Yes, that Microsoft Word, the word processor. In one version, Outlook went from being decent and understandable to downright terrible at displaying HTML emails from anyone except other Outlook users.
 
-    Outlook 2007 is a hugely popular email client, but that’s not the only problem: building HTML for email means you’re dealing with more than four or five major web browsers, and 12 to 15 different email clients, each with solid market share.
+> Outlook 2007 is a hugely popular email client, but that’s not the only problem: building HTML for email means you’re dealing with more than four or five major web browsers, and 12 to 15 different email clients, each with solid market share.
 
-    Some of them are great, like Apple Mail. A design that works in Safari will be perfect in Apple Mail. Some, like Outlook, are horrible and will cause dizziness, hair loss, and heart palpitations. In between are a whole slew of different rendering constraints, quirks, and inconsistencies."
+> Some of them are great, like Apple Mail. A design that works in Safari will be perfect in Apple Mail. Some, like Outlook, are horrible and will cause dizziness, hair loss, and heart palpitations. In between are a whole slew of different rendering constraints, quirks, and inconsistencies."
 
 If you scan over the rest of their (excellent) article, you'll see that -compared with making a regular web page- coding emails is still a **nightmare**.
 
@@ -27,7 +27,7 @@ If you scan over the rest of their (excellent) article, you'll see that -compare
 
 Their [intro tutorial](https://mjml.io/getting-started/1) is good, but I feel it assumes quite a bit, especially for beginners, so this tutorial is step by step, in an opinionated way. You can use their service in various ways. The following is what worked for me. I'm assuming, like me, that you'll come to this having already been provided a design by a client. My experience was, perhaps, not unusual, in that I was only given the full screen design- I was expected to infer how the mobile view should be implemented.
 
-    I recommend scanning through the steps before beginning, as there are some things which may force a rethink, or even a redesign, and this way, you'll not waste the time you would if you followed along and then had to undo everything.
+> I recommend scanning through the steps before beginning, as there are some things which may force a rethink, or even a redesign, and this way, you'll not waste the time you would if you followed along and then had to undo everything.
 
 ## Set up and installation
 

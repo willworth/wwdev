@@ -19,16 +19,15 @@ class BlogIndex extends React.Component {
 
         <img src={will} alt="Will" class="willpic" />
         <h2>Hi! </h2>
-        <blockquote>
-          <p>
-            {" "}
-            <em>
-              {" "}
-              I'm a Javascript (React / Node ) developer with professional
-              experience looking for a full time position.
-            </em>
-          </p>
-        </blockquote>
+
+        <p>
+          {" "}
+          I'm Will- a Javascript (React / Node ) developer based in Alicante.
+          <br /> <br /> I'm looking for ways to help, so{" "}
+          <Link to="/contact">get in touch</Link> if you have a project you
+          think I could help with.
+        </p>
+
         <p>
           {" "}
           <a
@@ -50,9 +49,8 @@ class BlogIndex extends React.Component {
           .
         </p>
         <p>
-          Please have a look at my <Link to="/portfolio">portfolio</Link>, the{" "}
-          <Link to="/blog">blog</Link>, or{" "}
-          <Link to="/contact">get in touch</Link>.
+          You can also see my <Link to="/portfolio">portfolio</Link>, or the{" "}
+          <Link to="/blog">blog</Link>.
         </p>
 
         <p>
