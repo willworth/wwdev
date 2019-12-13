@@ -29,26 +29,6 @@ class BlogIndex extends React.Component {
         </p>
 
         <p>
-          {" "}
-          <a
-            href="https://tinyurl.com/espwwdev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            Descargar mi currículum (en español)
-          </a>
-          . <br /> <br />
-          <a
-            href="https://tinyurl.com/engwwdev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download my c.v. (in English)
-          </a>
-          .
-        </p>
-        <p>
           You can also see my <Link to="/portfolio">portfolio</Link>, or the{" "}
           <Link to="/blog">blog</Link>.
         </p>
