@@ -9,27 +9,6 @@ const Portfolio = props => (
     <SEO title="Will Worth: Portfolio" />
     <h1>Portfolio</h1>
     <p>
-      {" "}
-      <a
-        href="https://tinyurl.com/espwwdev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {" "}
-        Descargar mi currículum (en español)
-      </a>
-      . <br /> <br />
-      <a
-        href="https://tinyurl.com/engwwdev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Download my c.v. (in English)
-      </a>
-      .
-    </p>
-
-    <p>
       <em>
         Please note: The Node examples are running on heroku's free tier, and
         therefore take a little time to start up. I think it's ok for a
