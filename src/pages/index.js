@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
         </p>
 
         <p>
-          You can also see my <Link to="/portfolio">portfolio</Link>, or the{" "}
+          You can also checkout the{" "}
           <Link to="/blog">blog</Link>.
         </p>
 

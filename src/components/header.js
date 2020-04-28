@@ -29,10 +29,10 @@ const Header = () => (
             <Link className={headerStyles.navLinks} to="/blog/">
               Blog
             </Link>{" "}
-            {}
+            {/* {}
             <Link className={headerStyles.navLinks} to="/portfolio/">
               Portfolio
-            </Link>{" "}
+            </Link>{" "} */}
             {}
             <Link className={headerStyles.navLinks} to="/contact/">
               Contact

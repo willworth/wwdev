@@ -9,7 +9,7 @@ const Espanol = () => (
     <p>
       {" "}
       Llevo casi 10 años estudiando español y me encanta. Vivo en España desde
-      hace 6 años, enseñando inglés y ahora como informático. Este sitio web está solo en inglés por
+      hace 7 años, enseñando inglés y ahora como informático. Este sitio web está solo en inglés por
       ahora, pero tengo una versión en español planeada.
     </p>
 

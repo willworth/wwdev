@@ -10,7 +10,7 @@ const Contact = () => (
     <br />
     <p>
       {" "}
-      I'm an English Javascript developer with professional experience, based in
+      I'm an English Javascript developer with ~ 5 years of professional experience, based in
       Alicante. <br /> <br />
     </p>
 
@@ -18,11 +18,7 @@ const Contact = () => (
       Tambien hablo <Link to="/espanol">español</Link>.
     </p>
 
-    <p>
-      For details of what I've been working on, please see my{" "}
-      <Link to="/portfolio">portfolio</Link>.{" "}
-    </p>
-
+    
     <p>
       {" "}
       If you have something I may be able to help with (I'm open to opensource
